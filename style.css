@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    padding: 0px 40px;
+}
+
+.links a{
+    text-transform: uppercase;
+    color: black;
+}
+
+.login-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+}
+
+.banner-img{
+    background-image: url("Images/slider-img.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 500px;
+}
+
+.banner-heading{
+    font-size: 50px;
+    max-width: 50%;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.banner-para{
+    max-width: 50%;
+    font-weight: 200;
+    margin-top: 40px;
+}
+
+.contact-btn{
+    padding: 8px 35px;
+    border: 0;
+    outline: 0;
+    background-color:  #f89646;
+    border: 1px solid  #f89646;
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.about-btn{
+    padding: 8px 35px;
+    border: 0;
+    outline: 0;
+    background-color: #6bb7be;
+    border: 1px solid #6bb7be;
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.contact-btn:hover{
+    background-color: transparent;
+    color: #f89646;
+    border: 1px solid #f89646;
+}
+
+.about-btn:hover{
+    background-color: transparent;
+    color: #6bb7be;
+    border:1px solid #6bb7be;
+}
+
+.items{
+    background-color: rgb(241, 239, 239);
+}
+
+.item-name{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.price{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#dollar-sign{
+    color: #6bb7be;
+}
+
+.buy-now{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #6bb7be;
+    text-transform: uppercase;
+}
+
+.blog{
+    width: 352px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.inpt{
+    width: 100%;
+    padding: 8px 12px;
+    border: 0;
+    outline: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.list a{
+    text-decoration: none;
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.footer-links:hover{
+    color: rgb(255, 68, 68);
+}
+
+.icons div{
+    cursor: pointer;
+}
+
+.copyright{
+    font-size: 15px;
+    font-weight: 600;
+}
